@@ -1,0 +1,12 @@
+
+
+.slide {
+	width: 30rem;
+    height: 18rem;
+    object-fit: cover;
+	display: none;
+}
+
+.active {
+	display: block;
+}
