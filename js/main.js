@@ -51,7 +51,7 @@ document.getElementById("prev").addEventListener("click", function () {
         }
     }
 
-    // ADESSO DICO CHE LA SLIDE SUCCESSIVA è QUELLA ATTIVA + 1
+    // ADESSO DICO CHE LA SLIDE SUCCESSIVA è QUELLA ATTIVA - 1
     nextSlide = imgActive - 1;
     console.log (nextSlide);
 
@@ -59,7 +59,7 @@ document.getElementById("prev").addEventListener("click", function () {
          nextSlide = 4;
     }
     
-    // METTO ACTIVE ALLA SLIDE SUCCESSIVA
+    // METTO ACTIVE ALLA SLIDE SUCCESSIVA che adesso sarebbe quella precedente
     slides[nextSlide].classList.add("active");
     console.log (`classe attiva: ${nextSlide}`);
 });
